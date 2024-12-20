@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="<?php echo e(route('home')); ?>" class="text-lg font-bold hover:underline">Home</a>
+            <div>
+                <a href="<?php echo e(route('about')); ?>" class="mx-2 hover:underline">About</a>
+                <a href="<?php echo e(route('contact')); ?>" class="mx-2 hover:underline">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mx-auto mt-8 text-center">
+        <h1 class="text-4xl font-bold text-gray-800">About Us</h1>
+        <p class="mt-4 text-gray-600">Learn more about our mission and vision.</p>
+    </div>
+</body>
+</html>
+<?php /**PATH D:\Kuliah\Semester 5\Praktikum PemWeb\THT\THT5\tht5\resources\views/about.blade.php ENDPATH**/ ?>
